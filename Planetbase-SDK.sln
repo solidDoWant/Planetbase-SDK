@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planetbase-SDK", "Planetbase-SDK\Planetbase-SDK.csproj", "{64BFFE21-1671-4AB5-A0F1-51CAF2A866DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Planetbase-ProjectTemplate", "Planetbase-ProjectTemplate\Planetbase-ProjectTemplate.csproj", "{0A679150-00A7-4F4E-BD4B-C9C3C2C05855}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{64BFFE21-1671-4AB5-A0F1-51CAF2A866DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64BFFE21-1671-4AB5-A0F1-51CAF2A866DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64BFFE21-1671-4AB5-A0F1-51CAF2A866DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A679150-00A7-4F4E-BD4B-C9C3C2C05855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A679150-00A7-4F4E-BD4B-C9C3C2C05855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A679150-00A7-4F4E-BD4B-C9C3C2C05855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A679150-00A7-4F4E-BD4B-C9C3C2C05855}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

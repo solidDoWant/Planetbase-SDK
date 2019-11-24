@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Planetbase Mod</Name>
+    <Description>A project for creating a new Planetbase mod using the Planetbase framework and Planetbase modding best practices.</Description>
+    <Icon>Planetbase-ProjectTemplate.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>v3.5</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>2b4ba4f6-5378-4153-acd1-fb115c6d7de6</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Planetbase-ModName</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Properties\AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true">LICENSE</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">$modName$Mod.cs</ProjectItem>
+      <Folder Name="assets">
+        <Folder Name="obj"></Folder>
+        <Folder Name="png"></Folder>
+        <Folder Name="strings"></Folder>
+      </Folder>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>Planetbase-SDK, Version=1.0.0.0, Culture=neutral, PublicKeyToken=db9d060c1b396fec</Assembly>
+    <FullClassName>Planetbase_SDK.Projects.NewMod.Wizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

@@ -1,15 +1,14 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Planetbase-SDK")]
+[assembly: AssemblyTitle("Planetbase-ProjectTemplate")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("solidDoWant")]
-[assembly: AssemblyProduct("Planetbase-SDK")]
+[assembly: AssemblyProduct("Planetbase-ProjectTemplate")]
 [assembly: AssemblyCopyright("Copyright © solidDoWant 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -18,6 +17,9 @@ using System.Runtime.InteropServices;
 // to COM components.  If you need to access a type in this assembly from 
 // COM, set the ComVisible attribute to true on that type.
 [assembly: ComVisible(false)]
+
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("0a679150-00a7-4f4e-bd4b-c9c3c2c05855")]
 
 // Version information for an assembly consists of the following four values:
 //
